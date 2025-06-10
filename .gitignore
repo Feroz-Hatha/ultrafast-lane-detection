@@ -7,6 +7,6 @@ checkpoints/
 models/
 outputs/
 TUSimple/
-Documentation.models
+Documentation.md
 test_label_new.json
 UF_Deep_Lane_Detection.pdf
