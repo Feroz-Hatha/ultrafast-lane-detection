@@ -13,7 +13,7 @@ This repository contains a complete implementation of the **Ultra Fast Structure
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 ultrafast-lane-detection/
@@ -38,7 +38,7 @@ ultrafast-lane-detection/
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 * Python 3.8+
 * PyTorch 1.12+
@@ -124,7 +124,7 @@ Outputs:
 
 ---
 
-## 📖 Reference
+## Reference
 
 > **Ultra Fast Structure-aware Deep Lane Detection**
 > Zequn Qin, Huanyu Wang, Xi Li
