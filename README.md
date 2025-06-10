@@ -2,8 +2,6 @@
 
 This repository contains a complete implementation of the **Ultra Fast Structure-aware Deep Lane Detection** model, as described in the [ECCV 2020 paper](https://arxiv.org/abs/2004.11757), using the **TuSimple** lane detection dataset.
 
-![Sample Prediction](outputs/pred_23.png)
-
 ---
 
 ## Project Highlights
@@ -15,7 +13,7 @@ This repository contains a complete implementation of the **Ultra Fast Structure
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 ultrafast-lane-detection/
@@ -40,7 +38,7 @@ ultrafast-lane-detection/
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 * Python 3.8+
 * PyTorch 1.12+
@@ -105,7 +103,7 @@ Outputs:
 
 ---
 
-## 🛠️ Ongoing / Planned Enhancements
+## Ongoing / Planned Enhancements
 
 * [ ] Add segmentation branch for auxiliary supervision
 * [ ] Incorporate ONNX export or TorchScript tracing
@@ -114,19 +112,19 @@ Outputs:
 
 ---
 
-## 📊 Results (so far)
+## Results (so far)
 
-| Metric       | Value     |
-| ------------ | --------- |
-| Accuracy     | 77.42%    |
-| Model        | ResNet-18 |
-| Input Size   | 360×640   |
-| Gridding Num | 100       |
-| Row Anchors  | 56        |
+| Metric           | Value     |
+| ---------------- | --------- |
+| Accuracy         | 77.42%    |
+| Backbone Model   | ResNet-18 |
+| Input Size       | 360×640   |
+| Gridding Num     | 100       |
+| Row Anchors      | 56        |
 
 ---
 
-## 📖 Reference
+## Reference
 
 > **Ultra Fast Structure-aware Deep Lane Detection**
 > Zequn Qin, Huanyu Wang, Xi Li
