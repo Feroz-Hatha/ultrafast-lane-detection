@@ -1,0 +1,12 @@
+__pycache__/
+.ipynb_checkpoints/
+.obsidian/
+*.pyc
+.DS_Store
+checkpoints/
+models/
+outputs/
+TUSimple/
+Documentation.models
+test_label_new.json
+UF_Deep_Lane_Detection.pdf

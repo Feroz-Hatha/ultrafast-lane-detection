@@ -1,0 +1,21 @@
+dataset:
+  json_file: "TUSimple/train_set/train_label.json"
+  dataset_root: "TUSimple/train_set"
+  img_size: [360, 640]
+  gridding_num: 100
+  num_lanes: 4
+  row_anchors: [160, 710]
+  num_rows: 56
+
+train:
+  epochs: 20
+  batch_size: 4
+  lr: 0.001
+  weight_decay: 0.0001
+  save_dir: "checkpoints"
+  lambda_structure: 0.1         # Weight for structure loss (α)
+  lambda_shp: 0.15              # Weight for second-order shape loss term (λ)
+
+model:
+  backbone: "resnet18"
+  pretrained: true
