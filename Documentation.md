@@ -1,2 +1,0 @@
-Total number of images within train_set = 3156 times 20 (3156 folders). Therefore, the training set contains 3156 images.
-Total number of images within test_set = 2782 times 20 (2782 folders). Therefore, the test set contains 2782 images (?).
