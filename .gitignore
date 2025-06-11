@@ -4,9 +4,8 @@ __pycache__/
 *.pyc
 .DS_Store
 checkpoints/
-models/
 outputs/
 TUSimple/
-Documentation.md
+Documentation.models
 test_label_new.json
 UF_Deep_Lane_Detection.pdf
