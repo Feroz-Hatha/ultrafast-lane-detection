@@ -103,15 +103,6 @@ Outputs:
 
 ---
 
-## Ongoing / Planned Enhancements
-
-* [ ] Add segmentation branch for auxiliary supervision
-* [ ] Incorporate ONNX export or TorchScript tracing
-* [ ] Track experiments using Weights & Biases (W\&B)
-* [ ] Optimize inference pipeline with post-processing
-
----
-
 ## Results (so far)
 
 | Metric           | Value     |
